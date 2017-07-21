@@ -1,0 +1,117 @@
+body{
+  padding-top:80px;
+}
+.mySlides {display:none}
+#my-presentation {
+  background: #000 url("https://preview.ibb.co/gGE6Hv/write_593333_1920.jpg");
+background-size: cover;
+background-repeat: no-repeat;     
+}
+#project {
+background: #000 url("http://preview.ibb.co/f7yLja/office_594132_19202.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+#contact-form {
+  background: #000 url("http://preview.ibb.co/mLeRPa/student_849825_19202.jpg");
+background-size: cover;
+background-repeat: no-repeat;  
+
+}
+.nav {
+  
+  -webkit-transition:all ease .5s;
+  
+  transition: all ease .5s;
+  background: transparent;
+}
+.nav.shrink {
+  -webkit-transition:all ease .5s;
+  transition: all ease .5s;
+  background: black; 
+}
+
+
+.photo-borders {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30%;
+    margin: auto;
+    width: 40%;
+  }
+
+.photo-border {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10%;
+    margin: auto;
+     height: 400px;
+ width: 100%;
+ overflow: hidden;
+  }
+.photo-border img {
+ height: auto;
+ width: 100%;
+}
+#text {
+  font-family: Georgia,Lobster, Monospace;
+  color: #ccccff;
+  }
+.headers {
+  font-family: Georgia,Lobster, Monospace;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  }
+.sep {
+        padding: 0;
+        border: none;
+        border-top: medium double #333;
+        color: #333;
+        text-align: center;
+    }
+    .sep:after {
+        content: "§";
+        display: inline-block;
+        position: relative; 
+        top: -0.7em;  
+        font-size: 1.5em;
+        padding: 0 0.25em;
+        background: white;
+    }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #0000FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contain {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
